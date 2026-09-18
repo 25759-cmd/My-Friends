@@ -1,0 +1,60 @@
+.hero-image {
+  background-image: url("./images/All.png");
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+
+.hero-text {
+  color: white;
+  font-size: 60px;
+  -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4); 
+  padding: 10px 30px;                    
+  border-radius: 12px;                  
+}
+
+.hero-text {
+  color: white;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.container {
+  width: 80%;
+  max-width: 1000px;
+  margin-top: 40px;
+  align-items: left;
+}
+
+.card {
+  display: flex;            
+  align-items: flex-start; 
+  gap: 40px;                
+  margin-bottom: 50px;      
+}
+
+
+.card-img {
+  width: 320px;             
+  height: 220px;            
+  object-fit: cover;       
+  border-radius: 8px;     
+  flex-shrink: 0;           
+}
+
+.card-info h2 {
+  margin-top: 0;
+  font-size: 28px;
+}
+
+.card-info p {
+  line-height: 1.8;
+  color: #333;
+}
