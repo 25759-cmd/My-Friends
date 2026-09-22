@@ -58,3 +58,22 @@
   line-height: 1.8;
   color: #333;
 }
+
+.three-column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.card{
+    background-color: rgb(1, 124, 140);
+}
+
+.card-text{
+    text-align:center;
+    color: whitesmoke;
+}
