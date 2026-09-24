@@ -95,7 +95,7 @@
   height: 350px!important;
 }
 
-body {
+body{
   margin: 0;
   background-image: url("./images/bg.jpg"); 
   background-size: cover;          
@@ -104,3 +104,36 @@ body {
   background-attachment: fixed;    
 }
 
+.extra-imgs{
+    display: flex;
+    
+    gap: 15px; 
+    align-items: flex-start;
+}
+
+.extra-imgs img{
+    width: 200px;  
+    height: 220px; 
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.anna-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.extra-imgs {
+  display: flex;
+  gap: 15px;               
+  flex-shrink: 0;          
+}
+
+.extra-imgs img {
+  width: 150px;            
+  height: 220px;           
+  object-fit: cover;
+  border-radius: 8px;
+  border: 3px solid #000;  
+}
